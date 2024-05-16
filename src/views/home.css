@@ -1,0 +1,356 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.home-image {
+  top: 152px;
+  left: -2px;
+  width: 22%;
+  position: absolute;
+  object-fit: cover;
+}
+.home-image1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+}
+.home-container2 {
+  width: 200px;
+  height: 1171px;
+  display: none;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://svgshare.com/i/15w0.svg');
+  background-position: center;
+}
+.home-image2 {
+  width: 200px;
+  object-fit: cover;
+}
+.home-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-container4 {
+  width: 100%;
+  height: 448px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://i.ibb.co/SX3j0Lq/Features-decoration.png');
+  background-position: center;
+}
+.home-heading {
+  color: rgb(47, 80, 94);
+  text-align: center;
+  font-family: "Inter Tight";
+  margin-bottom: -10%;
+}
+.home-text02 {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.home-image3 {
+  width: 75%;
+  height: auto;
+  margin-top: 10%;
+  object-fit: cover;
+  margin-right: 3%;
+}
+.home-container5 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-container6 {
+  width: 100%;
+  height: 812px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-size: cover;
+  justify-content: flex-end;
+  background-image: url('https://svgshare.com/i/15uG.svg');
+  background-position: center;
+}
+.home-container7 {
+  left: 116px;
+  width: 320px;
+  bottom: 219px;
+  height: 367px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://svgshare.com/i/15wC.svg');
+  background-position: center;
+}
+.home-image4 {
+  width: 200px;
+  height: 50%;
+  object-fit: cover;
+}
+.home-text04 {
+  margin-top: 2%;
+}
+.home-text05 {
+  color: rgb(47, 80, 94);
+  font-size: 25px;
+  text-align: center;
+  font-family: "Inter Tight";
+  line-height: 1;
+  margin-right: 7%;
+}
+.home-text09 {
+  color: #5dc7f4;
+  font-style: normal;
+  font-weight: 700;
+}
+.home-text11 {
+  color: #5dc7f4;
+  font-style: normal;
+  font-weight: 700;
+}
+@media(max-width: 991px) {
+  .home-container1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .home-image {
+    top: 78px;
+    left: -3px;
+    position: absolute;
+  }
+  .home-image1 {
+    width: 100%;
+  }
+  .home-container2 {
+    display: none;
+  }
+  .home-container3 {
+    position: relative;
+  }
+  .home-container4 {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 365px;
+    display: flex;
+    padding: 0px;
+    position: absolute;
+    margin-right: 0px;
+    justify-content: center;
+  }
+  .home-image3 {
+    width: 75%;
+    height: auto;
+  }
+  .home-container5 {
+    width: 100%;
+    height: auto;
+    margin-top: 50%;
+  }
+  .home-container6 {
+    height: 770px;
+  }
+  .home-container7 {
+    top: 195px;
+    left: 48px;
+    width: 313px;
+    height: auto;
+  }
+  .home-text05 {
+    color: rgb(47, 80, 94);
+    font-size: 25px;
+    font-family: Inter Tight;
+    line-height: 1;
+    margin-right: 3%;
+  }
+  .home-text06 {
+    font-size: 50px;
+  }
+  .home-text07 {
+    font-size: 20px;
+  }
+  .home-text08 {
+    font-size: 20px;
+  }
+  .home-text09 {
+    color: #5dc7f4;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text10 {
+    font-size: 20px;
+  }
+  .home-text11 {
+    color: #5dc7f4;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text12 {
+    font-size: 20px;
+  }
+  .home-text13 {
+    color: #5dc7f4;
+    font-size: 20px;
+  }
+  .home-text14 {
+    font-size: 20px;
+  }
+  .home-text15 {
+    font-size: 20px;
+  }
+  .home-text16 {
+    font-size: 20px;
+  }
+  .home-text17 {
+    font-size: 20px;
+  }
+  .home-text18 {
+    font-size: 20px;
+  }
+  .home-text19 {
+    font-size: 20px;
+  }
+}
+@media(max-width: 767px) {
+  .home-image {
+    top: 57px;
+  }
+  .home-container2 {
+    width: 100%;
+    height: 1180px;
+    display: flex;
+  }
+  .home-image2 {
+    width: 50%;
+  }
+  .home-container3 {
+    height: 1148px;
+  }
+  .home-container4 {
+    display: none;
+    background-repeat: space;
+    background-position: center;
+  }
+  .home-container6 {
+    height: 556px;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .home-container7 {
+    top: 8px;
+    left: 0px;
+    right: 0px;
+    width: 35%;
+    height: auto;
+    margin: auto;
+  }
+  .home-text05 {
+    margin-right: 0%;
+    margin-bottom: 10%;
+  }
+}
+@media(max-width: 479px) {
+  .home-image {
+    top: 35px;
+    left: -2px;
+  }
+  .home-container2 {
+    width: 100%;
+    display: flex;
+  }
+  .home-image2 {
+    width: 70%;
+  }
+  .home-container7 {
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    width: 274px;
+    height: auto;
+    margin: auto;
+  }
+  .home-text05 {
+    color: rgb(47, 80, 94);
+  }
+  .home-text06 {
+    font-size: 30px;
+  }
+  .home-text07 {
+    font-size: 16px;
+  }
+  .home-text08 {
+    font-size: 16px;
+  }
+  .home-text09 {
+    color: #5dc7f4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text10 {
+    font-size: 16px;
+  }
+  .home-text11 {
+    color: #5dc7f4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .home-text12 {
+    font-size: 16px;
+  }
+  .home-text13 {
+    color: #5dc7f4;
+    font-size: 16px;
+  }
+  .home-text14 {
+    font-size: 16px;
+  }
+  .home-text15 {
+    font-size: 16px;
+  }
+  .home-text16 {
+    font-size: 16px;
+  }
+  .home-text17 {
+    font-size: 16px;
+  }
+  .home-text18 {
+    font-size: 16px;
+  }
+  .home-text19 {
+    font-size: 16px;
+  }
+}

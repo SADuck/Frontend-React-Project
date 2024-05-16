@@ -1,0 +1,328 @@
+.footer-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 2;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.footer-container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://svgshare.com/i/160n.svg');
+  background-position: center;
+}
+.footer-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 639px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0.00%,rgba(0, 0, 0, 0.53) 100.00%);
+}
+.footer-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.footer-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-self: flex-end;
+  align-items: flex-start;
+  margin-left: 5%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.footer-link {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 10%;
+  font-family: "Inter Tight";
+  font-weight: 300;
+}
+.footer-link1 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 10%;
+  font-family: "Inter Tight";
+  font-weight: 300;
+}
+.footer-link2 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 10%;
+  font-family: "Inter Tight";
+  font-weight: 300;
+}
+.footer-link3 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 10%;
+  font-family: "Inter Tight";
+  font-weight: 300;
+}
+.footer-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.footer-image {
+  width: 100%;
+  object-fit: cover;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.footer-image1 {
+  width: 100%;
+  object-fit: cover;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.footer-image2 {
+  width: 100%;
+  object-fit: cover;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.footer-image3 {
+  width: 100%;
+  object-fit: cover;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.footer-container6 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 5%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.footer-link4 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 10%;
+  text-align: right;
+  font-family: "Inter Tight";
+  font-weight: 300;
+}
+.footer-link5 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 10%;
+  text-align: right;
+  font-family: "Inter Tight";
+  font-weight: 300;
+}
+.footer-link6 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 10%;
+  text-align: right;
+  font-family: "Inter Tight";
+  font-weight: 300;
+}
+.footer-link7 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 10%;
+  text-align: right;
+  font-family: "Inter Tight";
+  font-weight: 300;
+}
+.footer-container7 {
+  width: auto;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding-top: 0%;
+  padding-left: 3%;
+  padding-right: 3%;
+  flex-direction: column;
+  padding-bottom: 0%;
+  justify-content: center;
+}
+.footer-image4 {
+  width: 100%;
+  margin-top: 0%;
+  object-fit: cover;
+  margin-bottom: 0%;
+}
+.footer-container8 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer-text {
+  color: rgba(255, 255, 255, 0.62);
+  align-self: flex-start;
+  font-style: normal;
+  font-family: "Inter Tight";
+  font-weight: 200;
+}
+.footer-text1 {
+  color: rgba(255, 255, 255, 0.5);
+  font-style: normal;
+  font-family: "Inter Tight";
+  font-weight: 200;
+}
+.footer-root-class-name {
+  margin-top: 5%;
+}
+
+.footer-root-class-name2 {
+  left: 0px;
+  bottom: 0px;
+  position: static;
+}
+.footer-root-class-name3 {
+  margin-top: 5%;
+}
+.footer-root-class-name4 {
+  width: 100%;
+  height: auto;
+  align-self: flex-end;
+}
+@media(max-width: 991px) {
+  .footer-container {
+    height: 100%;
+  }
+  .footer-container1 {
+    height: 421px;
+  }
+  .footer-container2 {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+  }
+  .footer-container4 {
+    align-self: flex-end;
+  }
+  .footer-link {
+    font-size: 16px;
+  }
+  .footer-link1 {
+    font-size: 16px;
+  }
+  .footer-link2 {
+    font-size: 16px;
+  }
+  .footer-link3 {
+    font-size: 16px;
+  }
+  .footer-container5 {
+    align-items: flex-end;
+  }
+  .footer-image {
+    width: auto;
+    height: 20px;
+  }
+  .footer-image1 {
+    width: auto;
+    height: 20px;
+  }
+  .footer-image2 {
+    width: auto;
+    height: 20px;
+  }
+  .footer-image3 {
+    width: auto;
+    height: 20px;
+  }
+  .footer-link4 {
+    font-size: 16px;
+  }
+  .footer-link5 {
+    font-size: 16px;
+  }
+  .footer-link6 {
+    font-size: 16px;
+  }
+  .footer-link7 {
+    font-size: 16px;
+  }
+  .footer-root-class-name2 {
+    left: 0px;
+    bottom: -635px;
+    height: auto;
+    position: static;
+    align-self: flex-end;
+  }
+  .footer-root-class-name4 {
+    height: auto;
+  }
+}
+@media(max-width: 479px) {
+  .footer-container {
+    height: 661px;
+  }
+  .footer-image {
+    width: 100%;
+    height: 20px;
+  }
+  .footer-image1 {
+    width: 100%;
+    height: 20px;
+  }
+  .footer-image2 {
+    width: 100%;
+    height: 20px;
+  }
+  .footer-image3 {
+    width: 100%;
+    height: 20px;
+  }
+  .footer-link4 {
+    font-size: 16px;
+  }
+  .footer-link5 {
+    font-size: 16px;
+  }
+  .footer-link6 {
+    font-size: 16px;
+  }
+  .footer-link7 {
+    font-size: 16px;
+  }
+  .footer-text {
+    color: rgba(255, 255, 255, 0.61);
+    font-size: 10px;
+  }
+  .footer-text1 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 7px;
+  }
+  .footer-root-class-name2 {
+    height: 100%;
+  }
+}
